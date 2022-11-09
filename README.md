@@ -10,6 +10,8 @@
         - #151515: for the general information box background color
         - #292929: for the Title in the information box background color.
         - ffffff: for the font, wich contrasts perfectly with the background colors chosen above
+    For the font choice I've decided to use the Trebuchet MS font, witch is the font used in the Half-Life video game franchise.
+    For the text in the footer I've used the Arial font witch is the font used in the logo of Black Mesa, the secret laboratory where the first game of the Half-Life frinchise takes place. 
     In the footer I put and easter egg for the people that know about this video game saga. 
     Please don't mind the profile photo, it's and old one that i have in my pc, I have to update it.
 
