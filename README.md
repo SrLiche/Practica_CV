@@ -1,29 +1,17 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+## Final user
+    The target user for this CV are comapnys within the software industrie, more especific video game companys, wich are the companys I will target when I graduate from university. What I think they will expect is a simple but yet clear design with all the specific information about what kind of programing languages I know and all my comunication skills, which are important when working in that enviroment.  
+## Architecture
+    I've chosen a 2 column display to diferenciate the generic information, in the left column, and the especific information, in the right, so it will contrast each one with a diferent background and style of displaying the information.
+## Visual desing
+    I've chosen a palet inspired by the Half-Life franchise of games to show that I'm a realy geek guy. The palet conforms this structure:
+        - #fb7e14: for a general background color and Title font color.
+        - #151515: for the general information box background color
+        - #292929: for the Title in the information box background color.
+        - ffffff: for the font, wich contrasts perfectly with the background colors chosen above
+    In the footer I put and easter egg for the people that know about this video game saga. 
+    Please don't mind the profile photo, it's and old one that i have in my pc, I have to update it.
 
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+## Link to Figma
+    https://www.figma.com/file/dOD7BGmefB21Jn89SxlqOz/Projecta_1?node-id=0%3A1
