@@ -1,0 +1,157 @@
+body {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% auto;
+    grid-template-rows: auto auto;
+    margin: 0;
+}
+
+ul {margin: 0.68% auto;}
+
+div#Left_Column_Section {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #FB7E14;
+    padding: 10px;
+    font-family: Trebuchet MS;
+    display: flex;
+    flex-flow: column;
+}
+
+div#Info_Group {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 0 10px;
+    font-family: Trebuchet MS;
+}
+
+#Left_Column_Section > img {width: auto;height: auto;align-self: center;}
+
+.Info_Section {
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: #292929;
+    color: white;
+    margin: 5px 0;
+}
+
+.Title_Group > img {
+    width: auto;
+    max-width: 50px;
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: right;
+    padding: 2px;
+}
+
+.Title_Group {
+    display: grid;
+    grid-template-columns: auto 10%;
+    grid-template-rows: auto;
+    align-items: center;
+    background-color: #151515;
+    padding: 5px;
+}
+
+h2.Title {
+    grid-column: 1;
+    grid-row: 1;
+    display: list-item;
+    padding: 0 10px;
+    list-style-position: inside;
+}
+
+h2 {
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 2;
+    background-color: #151515;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    align-items: center;
+    padding: 10px;
+}
+
+#footer_group > img {
+    /* max-width: 150px; */
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    padding: 0px 0px 0px 10px;
+}
+
+div#Footer_Text_Group {
+    padding: 10px;
+}
+
+div#Desc_Group {
+    color: white;
+    margin: 10px 0;
+}
+
+div#Profile_Group {
+    color: white;
+    padding: 0px 0 0 25px;
+}
+
+.big_text {
+    font-size: 30px;
+}
+
+p {
+    margin: 0;
+}
+
+.little_text {
+    font-size: 10px;
+}
+
+#Profile_Group > h2 {
+    display: list-item;
+    list-style: disc;
+    list-style-position: outside;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+#Profile_Group > p {
+    font-size: 20px;
+}
+
+#Desc_Group > h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+@media only screen and (max-width: 880px) {
+    #Desc_Group > ul{
+        font-size: 15px;
+        padding-left: 15px;
+        word-break: break-word;
+    }
+
+    .Info_Section{
+        padding: 0px 0 15px 0;
+    }
+}
+
+@media only screen and (max-width: 665px) {
+    body{
+        grid-template-columns: auto;
+        grid-template-rows:auto;
+    }
+    div#Info_Group{
+        grid-column:1;
+        grid-row:2;
+    }
+    footer{
+        grid-row:3;
+        grid-column: 1;
+    }
+}
